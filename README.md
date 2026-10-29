@@ -1,38 +1,190 @@
-# CNAPP Dashboard V2 — Frontend Trainee Assignment
+# \# CNAPP Dashboard V2
 
-This implementation follows the supplied reference screenshots and assignment requirements.
+# 
 
-## Features
-- CNAPP-style dashboard layout
-- CSPM Executive Dashboard, CWPP Dashboard and Registry Scan sections
-- Widget cards with donut/empty/bar visualizations
-- Add Widget drawer with CSPM/CWPP/Image/Ticket tabs
-- Add custom widget name and text
-- Remove widgets with the X action
-- Search across all widgets
-- Redux Toolkit local state management
-- Responsive layout
+# A responsive Cloud-Native Application Protection Platform (CNAPP) dashboard built as a frontend trainee assignment.
 
-## Run locally
+# 
 
-Requirements: Node.js LTS.
+# \## Overview
 
-```bash
-npm install
-npm run dev
-```
+# 
 
-Open the Vite URL shown in the terminal, normally `http://localhost:5173`.
+# This project provides a dashboard interface for viewing cloud security information across different categories, with customizable widgets and local state management.
 
-Build:
+# 
 
-```bash
-npm run build
-```
+# \## Features
 
-## Assignment mapping
-- Dynamic widget/category data: React state + Redux store
-- Add/remove widget locally: Redux Toolkit
-- Search all widgets: dashboard search field
-- Add widget: Add Widget drawer
-- Code can be uploaded to GitHub or submitted as ZIP.
+# 
+
+# \- \*\*Security dashboards:\*\* CSPM Executive Dashboard, CWPP Dashboard, and Registry Scan.
+
+# \- \*\*Widget management:\*\* Add and remove dashboard widgets.
+
+# \- \*\*Custom widgets:\*\* Add a custom widget name and text.
+
+# \- \*\*Widget categories:\*\* CSPM, CWPP, Image, and Ticket tabs in the Add Widget drawer.
+
+# \- \*\*Search:\*\* Search across dashboard widgets.
+
+# \- \*\*Visualizations:\*\* Donut charts, bar charts, and empty-state visualizations.
+
+# \- \*\*State management:\*\* Redux Toolkit for local dashboard state.
+
+# \- \*\*Responsive UI:\*\* Layout designed for different screen sizes.
+
+# 
+
+# \## Tech Stack
+
+# 
+
+# \- React
+
+# \- JavaScript
+
+# \- Redux Toolkit
+
+# \- Vite
+
+# \- HTML and CSS
+
+# 
+
+# \## Getting Started
+
+# 
+
+# \### Prerequisites
+
+# 
+
+# \- Node.js (LTS recommended)
+
+# \- npm
+
+# 
+
+# \### Installation
+
+# 
+
+# Clone the repository:
+
+# 
+
+# ```bash
+
+# git clone https://github.com/sujit5525/cnapp-dashboard-assignment.git
+
+# cd cnapp-dashboard-assignment
+
+# ```
+
+# 
+
+# Install dependencies:
+
+# 
+
+# ```bash
+
+# npm install
+
+# ```
+
+# 
+
+# Start the development server:
+
+# 
+
+# ```bash
+
+# npm run dev
+
+# ```
+
+# 
+
+# Open the local URL shown in the terminal, usually `http://localhost:5173`.
+
+# 
+
+# \### Production Build
+
+# 
+
+# ```bash
+
+# npm run build
+
+# ```
+
+# 
+
+# To preview the production build locally:
+
+# 
+
+# ```bash
+
+# npm run preview
+
+# ```
+
+# 
+
+# \## Project Structure
+
+# 
+
+# ```text
+
+# cnapp-dashboard-assignment/
+
+# ├── src/
+
+# ├── index.html
+
+# ├── package.json
+
+# ├── package-lock.json
+
+# └── README.md
+
+# ```
+
+# 
+
+# \## Assignment Highlights
+
+# 
+
+# \- Interactive dashboard UI
+
+# \- Add/remove widget functionality
+
+# \- Widget search
+
+# \- Category-based widget organization
+
+# \- Redux Toolkit state management
+
+# 
+
+# \## Repository
+
+# 
+
+# \[View the source code on GitHub](https://github.com/sujit5525/cnapp-dashboard-assignment)
+
+# 
+
+# \## Author
+
+# 
+
+# Sujit Kafare
+
